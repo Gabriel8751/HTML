@@ -1,0 +1,180 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+	background-color: white;
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+a,
+a:hover,
+a:active,
+a:Link,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	border: none;
+	background-color: var(--clr-pink-dark);
+	height: 2px;
+	width: 140px;
+	margin: 20px auto;
+}
+
+p {
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.section-titulo {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 100px;
+}
+
+img {
+	display: block;
+	max-width: 100%
+}
+
+/**********************************/
+/* 1. Menu
+/**********************************/
+.menu-bg {
+	background-color: #0BF96A;
+}
+
+.menu {
+    font-size: 1.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width:1980px;
+    width: 100%;
+	margin: 0 auto;
+    padding: 0;
+	flex-wrap: wrap;
+}
+
+.menu__logo {
+	margin: 10px;
+    padding: 10px;
+}
+
+.nav__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none
+}
+
+.nav__link {
+	padding: 30px;
+    color: white;
+}
+
+.intro {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+/**********************************/
+/* 2. Quem somos
+/**********************************/
+
+.geral-qs{
+	max-width:960px;
+	margin: 0 auto;
+}
+
+.somos-c {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.texto-quem-somos {
+	flex: 6 1 160px;
+
+}
+
+.img-somos{
+	flex: 1 1 350px;
+
+}
+
+/**********************************/
+/* 3. Newsletter / Footer
+/**********************************/
+
+.newsletter{
+    size: 30px  ;
+	background-color: #0BF96A;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.newsletter-c{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	padding: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.newsletter-info{
+	flex: 1 1 160px;
+	padding-left: 10px;
+}
+
+.newsletter-info__titulo{
+	font-size: 1.5rem;
+	font-weight: bold;
+    padding-left: 125px;
+}
+
+.newsletter-info__descricao{
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+.newsletter-form{
+	flex: 2 1 60px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.newsletter-form__input{
+	flex: 3 1 60px;
+	font-size: 1.25rem;
+	color: black;
+	font-style: italic;
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+	border: 21px solid #0BF96A;
+	padding: 21px;
+	margin: 20;
+	border-radius: 60px;
+}
+
+.newsletter-form__submit{
+	flex: 1 60px;
+	font-family: "Nunito", Helvetica, Arial, sans-serif;;
+	font-size: 1.35rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #ff6600;
+	color: white;
+	cursor: pointer;
+	border: 10px;
+	padding: 18px;
+	border-radius: 70px;
+}
